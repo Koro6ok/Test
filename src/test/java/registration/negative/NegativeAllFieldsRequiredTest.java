@@ -8,10 +8,11 @@ public class NegativeAllFieldsRequiredTest extends BasedTest {
 
     @Test
     public void negativeAllFieldsRequired() {
+        // WHEN
         registrationPage.openRegistrationPage();
         registrationPage.isButtonVhodDisplayed();
         registrationPage.clickButtonVhod();
-
+        // THEN
         Assert.assertTrue("Validator is not be present", registrationPage.isFieldValidatorEmailDisplayed());
         Assert.assertTrue("Validator is not be present", registrationPage.isFieldValidatorFirstNameDisplayed());
         Assert.assertTrue("Validator is not be present", registrationPage.isFieldValidatorLastNameDisplayed());

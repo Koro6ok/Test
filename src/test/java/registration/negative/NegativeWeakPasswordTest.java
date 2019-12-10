@@ -11,30 +11,32 @@ import java.util.Collection;
 
 @RunWith(Parameterized.class)
 public class NegativeWeakPasswordTest extends BasedTest {
-    String passWord;
+    private String passWord;
 
     public NegativeWeakPasswordTest(String passWord ) {
-        this.passWord = passWord;
+                this.passWord = passWord;
     }
 
     @Parameterized.Parameters (name = "Parameters is {0}" )
     public static Collection testData(){
         return Arrays.asList(new Object[][]{
-                {""},
                 {" "},
+                {"      "},
                 {"1"},
                 {"/"},
                 {"ASDFGH"},
-                {"123456"},
-
+                {"asdfgh"},
+                {"ЫЫЫЫЫЫ"},
+                {"ыыыыыы"},
+                {"123456"}
         });
     }
 
     @Test
     public void negativeWeakPassword(){
+        // WHEN
         registrationPage.setPassword(passWord);
-
-        Assert.assertTrue("Validator is shown", registrationPage.isFieldValidatorWeakPasswordDisplayed());
-
+        // THEN
+        Assert.assertFalse("Hint is shown", registrationPage.isFieldHintWeakPasswordDisplayed());
     }
 }

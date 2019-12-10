@@ -31,15 +31,22 @@ public class UnValidRagistrationWithParametersTest extends BasedTest {
     @Parameterized.Parameters(name = "Parameters are {0} and {1} and {2} and {3} and {4} and {5} and {6}")
     public static Collection testData() {
         return Arrays.asList(new Object[][]{
-                {"1", "2", "3", "4", "5", "6", "7"},
-                {"7", "6", "5", "4", "4", "2", "1"},
-                {"a", "b", "c", "d", "e", "f", "g"}
+                {"test@test.com", "John", "Smith", "qwerty", "qwerty123", "+38011222333", "NASA"},
+                {"", "John", "Smith", "qwerty", "qwerty", "+38011222333", "NASA"},
+                {"test@test.com", "", "Smith", "qwerty", "qwerty", "+38011222333", "NASA"},
+                {"test@test.com", "John", "", "qwerty", "qwerty", "+38011222333", "NASA"},
+                {"test@test.com", "John", "Smith", "", "qwerty", "+38011222333", "NASA"},
+                {"test@test.com", "John", "Smith", "qwerty", "", "+38011222333", "NASA"},
+                {"test@test.com", "John", "Smith", "qwerty", "qwerty", "", "NASA"},
+                {"test@test.com", "John", "Smith", "qwerty", "qwerty", "+38011222333", ""}
         });
     }
 
     @Test
     public void unValidRagistrationWithParameters() {
+        // WHEN
         registrationPage.doRegistration(email, firstName, lastName, passWord, confirmPassword, phone, organizationName);
+        // THEN
         Assert.assertFalse("Welcome is present", welcomePage.isWelcomeDisplayed());
     }
 }

@@ -56,13 +56,13 @@ public class RegistrationPage extends ParentPage {
     private WebElement fieldValidatorErrorLastName;
 
     @FindBy(xpath = ".//span[contains(@data-bind, 'showPasswordWeaknessError')]")
-    private WebElement fieldValidatorWeakPassword;
+    private WebElement fieldHintWeakPassword;
 
     @FindBy(xpath = ".//span[contains(@data-bind, 'showPasswordNormalError')]")
-    private WebElement fieldValidatorNormalPassword;
+    private WebElement fieldHintNormalPassword;
 
     @FindBy(xpath = ".//span[contains(@data-bind, 'showPasswordStrongError')]")
-    private WebElement fieldValidatorStrongPassword;
+    private WebElement fieldHintStrongPassword;
 
     @FindBy(xpath = ".//*[@class='error_ico']")
     private WebElement fieldValidatorCorrectPhone;
@@ -155,16 +155,16 @@ public class RegistrationPage extends ParentPage {
         return actionsWithOurElements.isElementDisplayed(fieldValidatorErrorLastName);
     }
 
-    public boolean isFieldValidatorWeakPasswordDisplayed() {
-        return actionsWithOurElements.isElementDisplayed(fieldValidatorWeakPassword);
+    public boolean isFieldHintWeakPasswordDisplayed() {
+        return actionsWithOurElements.isElementDisplayed(fieldHintWeakPassword);
     }
 
-    public boolean isFieldValidatorNormalPasswordDisplayed() {
-        return actionsWithOurElements.isElementDisplayed(fieldValidatorNormalPassword);
+    public boolean isFieldHintNormalPasswordDisplayed() {
+        return actionsWithOurElements.isElementDisplayed(fieldHintNormalPassword);
     }
 
-    public boolean isFieldValidatorStrongPasswordDisplayed() {
-        return actionsWithOurElements.isElementDisplayed(fieldValidatorStrongPassword);
+    public boolean isFieldHintStrongPasswordDisplayed() {
+        return actionsWithOurElements.isElementDisplayed(fieldHintStrongPassword);
     }
 
     public boolean isFieldValidatorCorrectPhone() {
@@ -175,19 +175,6 @@ public class RegistrationPage extends ParentPage {
         return actionsWithOurElements.isElementDisplayed(fieldValidatorErrorOrganizationName);
     }
 
-
-    public void doRegistration(String email, String firstName, String lastName, String passWord, String confirmPassword, String phone, String organizationName) {
-        openRegistrationPage();
-        fillRegistrationForm(email, firstName, lastName, passWord, confirmPassword, phone, organizationName);
-        isButtonVhodDisplayed();
-        clickButtonVhod();
-    }
-
-    public void setPassword(String passWord) {
-        openRegistrationPage();
-        enterPassword(passWord);
-    }
-
     public void fillRegistrationForm(String email, String firstName, String lastName, String passWord, String confirmPassword, String phone, String organizationName) {
         enterEmailAddress(email);
         enterFirstName(firstName);
@@ -196,5 +183,28 @@ public class RegistrationPage extends ParentPage {
         enterConfirmPassword(confirmPassword);
         enterPhone(phone);
         enterOrganizationName(organizationName);
+    }
+
+    public void doRegistration(String email, String firstName, String lastName, String passWord, String confirmPassword, String phone, String organizationName) {
+        openRegistrationPage();
+        fillRegistrationForm(email, firstName, lastName, passWord, confirmPassword, phone, organizationName);
+        isButtonVhodDisplayed();
+        clickButtonVhod();
+    }
+
+//    public void setFirstLastName(String firstName, String lastName) {
+//        openRegistrationPage();
+//        enterFirstName(firstName);
+//        enterLastName(lastName);
+//    }
+
+    public void setPassword(String passWord) {
+        openRegistrationPage();
+        enterPassword(passWord);
+    }
+
+    public void setPhone(String phone) {
+        openRegistrationPage();
+        enterPhone(phone);
     }
 }
