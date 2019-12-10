@@ -12,26 +12,37 @@ import java.util.Collection;
 
 @RunWith(Parameterized.class)
 public class PositiveStrongPasswordTest extends BasedTest {
-    String passWord;
+    private String passWord;
 
 
     public PositiveStrongPasswordTest(String passWord ) {
         this.passWord = passWord;
     }
 
-    @Parameterized.Parameters (name = "Parameters is {0}" )
+    @Parameterized.Parameters (name = "Parameter is {0}" )
     public static Collection testData(){
         return Arrays.asList(new Object[][]{
-                {"A123$%>?|"},
-                {"A123$%>?|A123$%>?|A123$%>?|A123$%>?|A123$%>?|A123$%>?|A123$%>?|A123$%>?|A123$%>?|A123$%>?|A123$%>?|A123$%>?|A123$%>?|"}
-
+                {"1234567890"},
+                {"AAAAAAAAAA"},
+                {"aaaaaaaaaa"},
+                {"1234567891234567891234567891234567891234567891234567891234567890"},
+                {"AAbc12?|/*"},
+                {"AAbc123456789012345678901234567890123456789012345678901234567890"},
+                {"ЫЫЫЫЫЫЫЫЫЫ"},
+                {"ыыыыыыЫЫЫЫ"},
+                {"ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ"},
+                {"ыыыыыыыыыЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ"},
+                {"ЫЫыы12?|/*"},
+                {"ЫЫыы12?|/*~!@#$%^&*()<>?"},
+                {"ЫЫыы12?|/*~!@#$%^&*()<>?zzZZ"}
         });
     }
 
     @Test
     public void positiveStrongPassword(){
+        // WHEN
         registrationPage.setPassword(passWord);
-
-        Assert.assertTrue("Validator is not shown", registrationPage.isFieldValidatorStrongPasswordDisplayed());
+        // THEN
+        Assert.assertTrue("Hint is not shown", registrationPage.isFieldHintStrongPasswordDisplayed());
     }
 }

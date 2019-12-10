@@ -11,7 +11,7 @@ import java.util.Collection;
 
 @RunWith(Parameterized.class)
 public class NegativePhoneTest extends BasedTest {
-    String phone;
+    private String phone;
 
     public NegativePhoneTest(String phone ) {
         this.phone = phone;
@@ -23,9 +23,13 @@ public class NegativePhoneTest extends BasedTest {
                 {""},
                 {" "},
                 {"1"},
-                {"/"},
-                {"aSыvbn"},
                 {"123456"},
+                {"/"},
+                {"ASDFGH"},
+                {"asdfgh"},
+                {"ЫЫЫЫЫЫ"},
+                {"ыыыыыы"},
+                {"-380"},
                 {"-380679992211"},
                 {"-38067999221"},
                 {"-3806799922111"},
@@ -35,8 +39,9 @@ public class NegativePhoneTest extends BasedTest {
     }
     @Test
     public void negativePhone(){
-        registrationPage.setPassword(phone);
-
-        Assert.assertFalse("Validator is shown", registrationPage.isFieldValidatorCorrectPhone());
+        // WHEN
+        registrationPage.setPhone(phone);
+        // THEN
+        Assert.assertFalse("Validator is not shown", registrationPage.isFieldValidatorCorrectPhone());
     }
 }

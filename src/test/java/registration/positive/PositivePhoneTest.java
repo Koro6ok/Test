@@ -11,26 +11,26 @@ import java.util.Collection;
 
 @RunWith(Parameterized.class)
 public class PositivePhoneTest extends BasedTest {
-    String phone;
+    private String phone;
 
     public PositivePhoneTest(String phone ) {
         this.phone = phone;
     }
 
-    @Parameterized.Parameters (name = "Parameters is {0}" )
+    @Parameterized.Parameters (name = "Parameter is {0}" )
     public static Collection testData(){
         return Arrays.asList(new Object[][]{
-                {"+380639992211"},
+                {"+380039992211"},
                 {"+380679992211"},
-                {"+380979992211"},
-
+                {"+380979992211"}
         });
     }
 
     @Test
     public void positivePhone(){
-        registrationPage.setPassword(phone);
-
-        Assert.assertTrue("Validator is not shown", registrationPage.isFieldValidatorCorrectPhone());
+        // WHEN
+        registrationPage.setPhone(phone);
+        // THEN
+        Assert.assertTrue("Validator is shown", registrationPage.isFieldValidatorCorrectPhone());
     }
 }

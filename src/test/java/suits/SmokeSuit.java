@@ -24,7 +24,6 @@ import registration.positive.*;
                 NegativeStrongPasswordTest.class,
                 NegativePhoneTest.class,
                 NegativeOrganizationNameTest.class,
-
         }
 )
 

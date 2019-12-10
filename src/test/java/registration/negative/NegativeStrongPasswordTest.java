@@ -11,7 +11,7 @@ import java.util.Collection;
 
 @RunWith(Parameterized.class)
 public class NegativeStrongPasswordTest extends BasedTest {
-    String passWord;
+    private String passWord;
 
     public NegativeStrongPasswordTest(String passWord ) {
         this.passWord = passWord;
@@ -20,15 +20,23 @@ public class NegativeStrongPasswordTest extends BasedTest {
     @Parameterized.Parameters (name = "Parameters is {0}" )
     public static Collection testData(){
         return Arrays.asList(new Object[][]{
-                {"SSsomething"},
+                {"         "},
+                {"123456789"},
+                {"AAAAAAAAA"},
+                {"aaaaaaaaa"},
+                {"ЫЫЫЫЫыыыы"},
+                {"ыыыыыЫЫЫЫ"},
+                {"Az1234567"},
+                {"Az1~!@$/|"}
 
         });
     }
 
     @Test
     public void negativeStrongPassword(){
+        // WHEN
         registrationPage.setPassword(passWord);
-
-        Assert.assertTrue("Validator is shown", registrationPage.isFieldValidatorStrongPasswordDisplayed());
+        // THEN
+        Assert.assertFalse("Hint is shown", registrationPage.isFieldHintStrongPasswordDisplayed());
     }
 }

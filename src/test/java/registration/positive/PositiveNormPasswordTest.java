@@ -10,25 +10,37 @@ import java.util.Collection;
 
 @RunWith(Parameterized.class)
 public class PositiveNormPasswordTest extends BasedTest {
-    String passWord;
+    private String passWord;
 
     public PositiveNormPasswordTest(String passWord ) {
         this.passWord = passWord;
     }
 
-    @Parameterized.Parameters (name = "Parameters is {0}" )
+    @Parameterized.Parameters (name = "Parameter is {0}" )
     public static Collection testData(){
         return Arrays.asList(new Object[][]{
-                {"123Abc"},
-                {"Abc123456"}
-
+                {"123456"},
+                {"AAAAAA"},
+                {"aaaaaa"},
+                {"123456789"},
+                {"AAAAAAAAA"},
+                {"aaaaaaaaa"},
+                {"AAbc12"},
+                {"AAbc12345"},
+                {"ЫЫЫЫЫЫ"},
+                {"ыыыыыы"},
+                {"ЫЫЫЫЫЫЫЫЫ"},
+                {"ыыыыыыыыы"},
+                {"ЫЫыы12"},
+                {"ЫЫыы12345"}
         });
     }
 
     @Test
     public void positiveNormPassword(){
+        // WHEN
         registrationPage.setPassword(passWord);
-
-        Assert.assertTrue("Validator is not shown", registrationPage.isFieldValidatorNormalPasswordDisplayed());
+        // THEN
+        Assert.assertTrue("Hint is not shown", registrationPage.isFieldHintNormalPasswordDisplayed());
     }
 }

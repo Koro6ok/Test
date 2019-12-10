@@ -11,7 +11,7 @@ import java.util.Collection;
 
 @RunWith(Parameterized.class)
 public class NegativeNormalPasswordTest extends BasedTest {
-    String passWord;
+    private String passWord;
 
     public NegativeNormalPasswordTest(String passWord ) {
         this.passWord = passWord;
@@ -20,18 +20,30 @@ public class NegativeNormalPasswordTest extends BasedTest {
     @Parameterized.Parameters (name = "Parameters is {0}" )
     public static Collection testData(){
         return Arrays.asList(new Object[][]{
-                {"12334"},
-                {"45Abc"},
-                {"~!@$/|"},
-                {"~45tgb ?*"}
-
+                {"     "},
+                {"          "},
+                {"12345"},
+                {"1234567890"},
+                {"AAAAA"},
+                {"aaaaa"},
+                {"ЫЫЫЫЫ"},
+                {"ыыыыы"},
+                {"AAAAAAAAAA"},
+                {"aaaaaaaaaa"},
+                {"ЫЫЫЫЫЫЫЫЫЫ"},
+                {"ыыыыыЫЫЫЫЫ"},
+                {"Az123"},
+                {"Az12345678"},
+                {"Az1~/|"},
+                {"Az1~!@$/|"}
         });
     }
 
     @Test
     public void negativeNormalPassword(){
+        // WHEN
         registrationPage.setPassword(passWord);
-
-        Assert.assertTrue("Validator is shown", registrationPage.isFieldValidatorNormalPasswordDisplayed());
+        // THEN
+        Assert.assertFalse("Hint is shown", registrationPage.isFieldHintNormalPasswordDisplayed());
     }
 }

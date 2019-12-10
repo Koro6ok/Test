@@ -21,18 +21,21 @@ public class PositiveWeakPasswordTest extends BasedTest {
     public static Collection testData() {
         return Arrays.asList(new Object[][]{
                 {"A"},
+                {"z"},
+                {"Я"},
                 {"ы"},
                 {"asdzx"},
                 {"ASDZX"},
+                {"ЫЫЫЫІ"},
                 {"фывяч"}
         });
     }
 
     @Test
-    public void PositiveWeakPassword() {
+    public void positiveWeakPassword() {
         // WHEN
         registrationPage.setPassword(password);
         // THEN
-        Assert.assertTrue("Validator is not shown", registrationPage.isFieldValidatorWeakPasswordDisplayed());
+        Assert.assertTrue("Hint is not shown", registrationPage.isFieldHintWeakPasswordDisplayed());
     }
 }

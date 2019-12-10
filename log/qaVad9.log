@@ -1100,3 +1100,831 @@ Session ID: 4f9270f96618c1dd5a0a3517d0f05b4a
 12-09-2019 20:02:26  INFO [libs.ActionsWithOurElements] : +380639992211 was inputted into Input
 12-09-2019 20:02:26  INFO [libs.ActionsWithOurElements] : My_organization was inputted into Input
 12-09-2019 20:02:26  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 14:56:28  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 14:56:28  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 14:56:28  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 14:56:28  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 14:56:28  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 14:56:28  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 14:56:28  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 14:56:28  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 14:56:29  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 14:57:44  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 14:57:44  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 14:57:44  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 14:57:44  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 14:57:44  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 14:57:44  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 14:57:44  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 14:57:44  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 14:57:44  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 15:00:24  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:00:24  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 15:00:25  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 15:00:25  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 15:00:25  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 15:00:25  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 15:00:25  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 15:00:25  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 15:00:25  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 15:01:51  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:01:51  INFO [libs.ActionsWithOurElements] : qwe@gmail.com was inputted into Input
+12-10-2019 15:01:51  INFO [libs.ActionsWithOurElements] : qweQWE was inputted into Input
+12-10-2019 15:01:51  INFO [libs.ActionsWithOurElements] : qweQWE was inputted into Input
+12-10-2019 15:01:51  INFO [libs.ActionsWithOurElements] : 12345 was inputted into Input
+12-10-2019 15:01:51  INFO [libs.ActionsWithOurElements] : 12345 was inputted into Input
+12-10-2019 15:01:51  INFO [libs.ActionsWithOurElements] : +380639992211 was inputted into Input
+12-10-2019 15:01:51  INFO [libs.ActionsWithOurElements] : My_organization was inputted into Input
+12-10-2019 15:01:51  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 15:16:18  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:16:18  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 15:16:18  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 15:16:28  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:16:28  INFO [libs.ActionsWithOurElements] : a was inputted into Input
+12-10-2019 15:16:28  INFO [libs.ActionsWithOurElements] : a was inputted into Input
+12-10-2019 15:16:39  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:16:39  INFO [libs.ActionsWithOurElements] : Ы was inputted into Input
+12-10-2019 15:16:39  INFO [libs.ActionsWithOurElements] : Ы was inputted into Input
+12-10-2019 15:18:26  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:18:26  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 15:18:37  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:18:37  INFO [libs.ActionsWithOurElements] : ы was inputted into Input
+12-10-2019 15:21:52  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:21:52  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 15:22:02  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:22:02  INFO [libs.ActionsWithOurElements] : z was inputted into Input
+12-10-2019 15:34:56  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:34:56  INFO [libs.ActionsWithOurElements] : 1234567890 was inputted into Input
+12-10-2019 15:35:16  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:35:16  INFO [libs.ActionsWithOurElements] : AAAAAAAAAA was inputted into Input
+12-10-2019 15:36:45  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:36:46  INFO [libs.ActionsWithOurElements] : +380039992211 was inputted into Input
+12-10-2019 15:36:56  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:36:56  INFO [libs.ActionsWithOurElements] : +380679992211 was inputted into Input
+12-10-2019 15:48:40  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:48:40  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 15:48:40  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 15:49:21  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:49:21  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 15:49:21  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 15:49:32  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:49:32  INFO [libs.ActionsWithOurElements] : a was inputted into Input
+12-10-2019 15:49:32  INFO [libs.ActionsWithOurElements] : a was inputted into Input
+12-10-2019 15:55:40  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:55:40  INFO [libs.ActionsWithOurElements] : +380039992211 was inputted into Input
+12-10-2019 15:59:20  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 15:59:20  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 15:59:20  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 15:59:20  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 15:59:20  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 15:59:21  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 15:59:21  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 15:59:21  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 15:59:21  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:01:07  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:01:07  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:01:07  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:01:07  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:01:07  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:01:08  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:01:08  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:01:08  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 16:01:08  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:01:58  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:01:58  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:01:58  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:01:58  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:01:58  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:01:58  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:01:58  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:01:58  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 16:01:58  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:07:07  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:07:07  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:07:08  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 16:07:08  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 16:07:08  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:07:08  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:07:08  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:07:08  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:07:08  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:07:39  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:07:39  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:07:39  INFO [libs.ActionsWithOurElements] : a was inputted into Input
+12-10-2019 16:07:39  INFO [libs.ActionsWithOurElements] : a was inputted into Input
+12-10-2019 16:07:39  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:07:39  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:07:39  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:07:39  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:07:39  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:09:32  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:09:32  INFO [libs.ActionsWithOurElements] : 1 was inputted into Input
+12-10-2019 16:09:32  INFO [libs.ActionsWithOurElements] : 2 was inputted into Input
+12-10-2019 16:09:32  INFO [libs.ActionsWithOurElements] : 3 was inputted into Input
+12-10-2019 16:09:32  INFO [libs.ActionsWithOurElements] : 4 was inputted into Input
+12-10-2019 16:09:32  INFO [libs.ActionsWithOurElements] : 5 was inputted into Input
+12-10-2019 16:09:32  INFO [libs.ActionsWithOurElements] : 6 was inputted into Input
+12-10-2019 16:09:32  INFO [libs.ActionsWithOurElements] : 7 was inputted into Input
+12-10-2019 16:09:32  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:09:53  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:09:53  INFO [libs.ActionsWithOurElements] : 7 was inputted into Input
+12-10-2019 16:09:53  INFO [libs.ActionsWithOurElements] : 6 was inputted into Input
+12-10-2019 16:09:53  INFO [libs.ActionsWithOurElements] : 5 was inputted into Input
+12-10-2019 16:09:53  INFO [libs.ActionsWithOurElements] : 4 was inputted into Input
+12-10-2019 16:09:53  INFO [libs.ActionsWithOurElements] : 4 was inputted into Input
+12-10-2019 16:09:53  INFO [libs.ActionsWithOurElements] : 2 was inputted into Input
+12-10-2019 16:09:53  INFO [libs.ActionsWithOurElements] : 1 was inputted into Input
+12-10-2019 16:09:53  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:21:26  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:21:27  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:21:27  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:21:27  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:21:27  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:21:27  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:21:27  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:21:27  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:21:27  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:21:48  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:21:48  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:21:48  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:21:48  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:21:48  INFO [libs.ActionsWithOurElements] : 123 was inputted into Input
+12-10-2019 16:21:48  INFO [libs.ActionsWithOurElements] : 123 was inputted into Input
+12-10-2019 16:21:48  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:21:48  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:21:48  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:22:08  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:22:08  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:22:09  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:22:09  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:22:09  INFO [libs.ActionsWithOurElements] : d was inputted into Input
+12-10-2019 16:22:09  INFO [libs.ActionsWithOurElements] : e was inputted into Input
+12-10-2019 16:22:09  INFO [libs.ActionsWithOurElements] : f was inputted into Input
+12-10-2019 16:22:09  INFO [libs.ActionsWithOurElements] : g was inputted into Input
+12-10-2019 16:22:09  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:36:16  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:36:16  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:37:01  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:37:01  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:37:01  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:37:01  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:37:01  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:37:01  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:37:01  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:37:01  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:37:01  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:37:22  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:37:22  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:37:22  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:37:22  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:37:22  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:37:22  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:37:22  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:37:22  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:37:22  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:37:43  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:37:43  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:37:43  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:37:43  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:37:43  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:37:43  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:37:43  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:37:43  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:37:43  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:38:03  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:38:04  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:38:04  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:38:04  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:38:04  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:38:04  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:38:04  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:38:04  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:38:04  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:38:25  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:38:25  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:38:25  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:38:25  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:38:25  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:38:25  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:38:25  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:38:25  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:38:25  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:38:46  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:38:46  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:38:46  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:38:46  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:38:46  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:38:46  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:38:46  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:38:46  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:38:46  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:39:06  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:39:07  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:39:07  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:39:07  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:39:07  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:39:07  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:39:07  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:39:07  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:39:07  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:39:28  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:39:28  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:39:28  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:39:28  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:39:28  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:39:28  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:39:28  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:39:28  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:39:28  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:43:27  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:43:27  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:43:27  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:43:27  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:43:27  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:43:27  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:43:27  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:43:28  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:43:28  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:43:48  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:43:48  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:43:48  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:43:48  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:43:48  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:43:48  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:43:48  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:43:48  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:43:48  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:44:19  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:44:19  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:44:19  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:44:19  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:44:19  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:44:19  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:44:19  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:44:19  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:44:20  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:44:41  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:44:42  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:44:42  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:44:42  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:44:42  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:44:42  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:44:42  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:44:42  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:44:42  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:45:02  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:45:03  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:45:03  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:45:03  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:45:03  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:45:03  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:45:03  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:45:03  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:45:03  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:45:33  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:45:33  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:45:33  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:45:33  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:45:33  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:45:33  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:45:33  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:45:33  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:45:33  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:45:55  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:45:55  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:45:55  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:45:55  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:45:55  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:45:56  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:45:56  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:45:56  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:45:56  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:46:16  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:46:16  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:46:16  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:46:17  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:46:17  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:46:17  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:46:17  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:46:17  INFO [libs.ActionsWithOurElements] :   was inputted into Input
+12-10-2019 16:46:17  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:46:44  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:46:44  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:46:44  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:46:44  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:46:44  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:46:44  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:46:44  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:46:44  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:46:44  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:47:05  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:47:05  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:47:05  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:47:05  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:47:05  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:47:05  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:47:05  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:47:05  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:47:05  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:47:57  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:47:57  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:47:57  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:47:57  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:47:57  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:47:57  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:47:57  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:47:57  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:47:57  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:48:26  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:48:26  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:48:26  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:48:26  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:48:26  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:48:26  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:48:26  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:48:26  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:48:26  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:49:35  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:49:35  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:49:35  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:49:35  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:49:35  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:49:35  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:49:35  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:49:35  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:49:35  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:49:56  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:49:56  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:49:56  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:49:56  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:49:56  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:49:56  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:49:56  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:49:56  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:49:56  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:50:17  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:50:17  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:50:17  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:50:17  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:50:17  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:50:17  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:50:17  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:50:17  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:50:17  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:50:38  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:50:38  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:50:38  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:50:38  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:50:38  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:50:38  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:50:38  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:50:38  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:50:38  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:50:59  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:50:59  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:50:59  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:50:59  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:50:59  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:50:59  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:50:59  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:50:59  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:50:59  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:51:20  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:51:20  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:51:20  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:51:20  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:51:20  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:51:20  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:51:20  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:51:20  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:51:20  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:51:41  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:51:41  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:51:41  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:51:41  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:51:41  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:51:41  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:51:41  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:51:41  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:51:41  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:52:02  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:52:02  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:52:02  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 16:52:02  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 16:52:02  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:52:02  INFO [libs.ActionsWithOurElements] : qwerty was inputted into Input
+12-10-2019 16:52:02  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:52:02  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 16:52:02  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:53:01  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:53:01  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:53:01  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 16:53:01  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 16:53:01  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:53:01  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:53:01  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:53:01  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:53:01  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:56:30  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:56:30  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:56:30  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 16:56:30  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 16:56:30  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:56:30  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:56:30  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:56:30  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:56:30  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:56:51  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:56:51  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:56:51  INFO [libs.ActionsWithOurElements] : a was inputted into Input
+12-10-2019 16:56:51  INFO [libs.ActionsWithOurElements] : a was inputted into Input
+12-10-2019 16:56:51  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:56:51  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:56:51  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:56:51  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:56:51  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 16:57:14  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 16:57:15  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 16:57:15  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 16:57:15  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 16:57:15  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:57:15  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 16:57:15  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 16:57:15  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 16:57:15  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 17:00:13  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:00:13  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 17:00:13  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 17:00:13  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 17:00:13  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:00:13  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:00:13  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 17:00:14  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 17:00:14  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 17:01:43  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:01:43  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 17:01:43  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 17:01:43  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 17:01:43  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:01:43  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:01:43  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 17:01:44  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 17:01:44  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 17:02:42  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:02:43  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 17:02:43  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 17:02:43  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 17:02:43  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:02:43  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:02:43  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 17:02:43  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 17:02:43  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 17:02:53  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:02:53  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 17:02:54  INFO [libs.ActionsWithOurElements] : ~!@#$%^&*<>| was inputted into Input
+12-10-2019 17:02:54  INFO [libs.ActionsWithOurElements] : ~!@#$%^&*<>| was inputted into Input
+12-10-2019 17:02:54  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:02:54  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:02:54  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 17:02:54  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 17:02:54  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 17:03:27  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:03:28  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 17:03:28  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 17:03:28  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 17:03:28  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:03:28  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:03:28  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 17:03:28  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 17:03:28  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 17:03:38  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:03:39  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 17:03:39  INFO [libs.ActionsWithOurElements] : ~!@#$%^&*<>| was inputted into Input
+12-10-2019 17:03:39  INFO [libs.ActionsWithOurElements] : ~!@#$%^&*<>| was inputted into Input
+12-10-2019 17:03:39  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:03:39  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:03:39  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 17:03:39  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 17:03:39  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 17:04:10  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:04:10  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 17:04:10  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 17:04:10  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 17:04:10  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:04:10  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:04:10  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 17:04:10  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 17:04:10  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 17:05:26  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:05:26  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 17:05:26  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 17:05:26  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 17:05:26  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:05:26  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:05:26  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 17:05:26  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 17:05:27  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 17:05:57  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:05:57  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 17:05:57  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 17:05:57  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 17:05:58  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:05:58  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 17:05:58  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 17:05:58  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 17:05:58  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 17:10:03  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:10:03  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 17:10:13  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:10:13  INFO [libs.ActionsWithOurElements] :   was inputted into Input
+12-10-2019 17:19:52  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:19:52  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 17:20:03  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:20:03  INFO [libs.ActionsWithOurElements] :   was inputted into Input
+12-10-2019 17:20:14  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:20:14  INFO [libs.ActionsWithOurElements] :        was inputted into Input
+12-10-2019 17:20:52  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:20:53  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 17:21:03  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:21:03  INFO [libs.ActionsWithOurElements] :   was inputted into Input
+12-10-2019 17:21:13  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:21:14  INFO [libs.ActionsWithOurElements] :        was inputted into Input
+12-10-2019 17:21:24  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:21:24  INFO [libs.ActionsWithOurElements] : 1 was inputted into Input
+12-10-2019 17:21:34  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:21:34  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 17:33:47  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:33:48  INFO [libs.ActionsWithOurElements] :       was inputted into Input
+12-10-2019 17:34:08  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:34:08  INFO [libs.ActionsWithOurElements] :            was inputted into Input
+12-10-2019 17:38:41  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:38:41  INFO [libs.ActionsWithOurElements] :           was inputted into Input
+12-10-2019 17:39:32  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:39:32  INFO [libs.ActionsWithOurElements] :           was inputted into Input
+12-10-2019 17:39:53  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:39:53  INFO [libs.ActionsWithOurElements] : 123456789 was inputted into Input
+12-10-2019 17:40:52  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:40:52  INFO [libs.ActionsWithOurElements] :           was inputted into Input
+12-10-2019 17:41:25  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:41:25  INFO [libs.ActionsWithOurElements] : 1234567890 was inputted into Input
+12-10-2019 17:46:19  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:46:19  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 17:46:30  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:46:30  INFO [libs.ActionsWithOurElements] :   was inputted into Input
+12-10-2019 17:48:13  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:48:13  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 17:49:10  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:49:10  INFO [libs.ActionsWithOurElements] : +380039992211 was inputted into Input
+12-10-2019 17:49:32  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:49:32  INFO [libs.ActionsWithOurElements] : +380039992211 was inputted into Input
+12-10-2019 17:49:43  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:49:43  INFO [libs.ActionsWithOurElements] : +380679992211 was inputted into Input
+12-10-2019 17:49:53  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:49:53  INFO [libs.ActionsWithOurElements] : +380979992211 was inputted into Input
+12-10-2019 17:50:08  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:50:08  INFO [libs.ActionsWithOurElements] : +380039992211 was inputted into Input
+12-10-2019 17:50:19  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:50:19  INFO [libs.ActionsWithOurElements] : +380679992211 was inputted into Input
+12-10-2019 17:51:04  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:51:04  INFO [libs.ActionsWithOurElements] : +380039992211 was inputted into Input
+12-10-2019 17:51:14  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:51:14  INFO [libs.ActionsWithOurElements] : +380679992211 was inputted into Input
+12-10-2019 17:51:45  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:51:45  INFO [libs.ActionsWithOurElements] : +380039992211 was inputted into Input
+12-10-2019 17:55:29  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:55:29  INFO [libs.ActionsWithOurElements] : +380039992211 was inputted into Input
+12-10-2019 17:56:02  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:56:02  INFO [libs.ActionsWithOurElements] :  was inputted into Input
+12-10-2019 17:56:13  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 17:56:13  INFO [libs.ActionsWithOurElements] :   was inputted into Input
+12-10-2019 18:00:43  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:00:43  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:00:43  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 18:00:43  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 18:00:43  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:00:43  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:00:43  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:00:44  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 18:00:44  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:01:30  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:01:30  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:01:30  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 18:01:30  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 18:01:30  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:01:30  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:01:30  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:01:30  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 18:01:30  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:01:51  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:01:51  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:01:51  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 18:01:51  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 18:01:51  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:01:51  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:01:51  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:01:51  INFO [libs.ActionsWithOurElements] :   was inputted into Input
+12-10-2019 18:01:51  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:03:33  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:03:33  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:03:33  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 18:03:33  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 18:03:33  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:03:33  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:03:34  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:03:34  INFO [libs.ActionsWithOurElements] : | was inputted into Input
+12-10-2019 18:03:34  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:03:54  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:03:54  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:03:54  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 18:03:54  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 18:03:54  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:03:54  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:03:55  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:03:55  INFO [libs.ActionsWithOurElements] :   was inputted into Input
+12-10-2019 18:03:55  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:04:15  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:04:15  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:04:15  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 18:04:15  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 18:04:15  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:04:15  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:04:15  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:04:16  INFO [libs.ActionsWithOurElements] : ~!@#$%^&*<>| was inputted into Input
+12-10-2019 18:04:16  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:04:57  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:04:58  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:04:58  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 18:04:58  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 18:04:58  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:04:58  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:04:58  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:04:58  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:04:58  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:05:08  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:05:08  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:05:09  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 18:05:09  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 18:05:09  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:05:09  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:05:09  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:05:09  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:05:09  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:10:25  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:10:25  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:10:25  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 18:10:25  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 18:10:25  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:10:25  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:10:25  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:10:25  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:10:25  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:10:35  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:10:36  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:10:36  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 18:10:36  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 18:10:36  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:10:36  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:10:36  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:10:36  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:10:36  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:12:14  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:12:15  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:12:15  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 18:12:15  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 18:12:15  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:12:15  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:12:15  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:12:15  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:12:15  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:12:19  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:12:19  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:12:19  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 18:12:19  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 18:12:19  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:12:19  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:12:19  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:12:19  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:12:20  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:12:43  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:12:43  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:12:43  INFO [libs.ActionsWithOurElements] : a was inputted into Input
+12-10-2019 18:12:43  INFO [libs.ActionsWithOurElements] : a was inputted into Input
+12-10-2019 18:12:43  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:12:43  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:12:43  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:12:43  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:12:44  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:13:04  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:13:04  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:13:04  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 18:13:04  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 18:13:04  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:13:04  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:13:04  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:13:04  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:13:04  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:13:15  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:13:15  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:13:15  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 18:13:15  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 18:13:15  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:13:15  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:13:15  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:13:15  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:13:15  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:14:25  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:14:25  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:14:25  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 18:14:26  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 18:14:26  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:14:26  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:14:26  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:14:26  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:14:26  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:15:30  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:15:31  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:15:31  INFO [libs.ActionsWithOurElements] : John was inputted into Input
+12-10-2019 18:15:31  INFO [libs.ActionsWithOurElements] : Smith was inputted into Input
+12-10-2019 18:15:31  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:15:31  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:15:31  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:15:31  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:15:31  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:15:41  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:15:42  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:15:42  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 18:15:42  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 18:15:42  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:15:42  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:15:42  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:15:42  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:15:42  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:16:12  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:16:13  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:16:13  INFO [libs.ActionsWithOurElements] : a was inputted into Input
+12-10-2019 18:16:13  INFO [libs.ActionsWithOurElements] : a was inputted into Input
+12-10-2019 18:16:13  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:16:13  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:16:13  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:16:13  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:16:13  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:16:44  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:16:44  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:16:44  INFO [libs.ActionsWithOurElements] : Ы was inputted into Input
+12-10-2019 18:16:44  INFO [libs.ActionsWithOurElements] : Ы was inputted into Input
+12-10-2019 18:16:44  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:16:44  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:16:44  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:16:44  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:16:44  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:17:15  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:17:15  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:17:15  INFO [libs.ActionsWithOurElements] : ы was inputted into Input
+12-10-2019 18:17:15  INFO [libs.ActionsWithOurElements] : ы was inputted into Input
+12-10-2019 18:17:15  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:17:15  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:17:15  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:17:15  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:17:15  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:17:46  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:17:46  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:17:46  INFO [libs.ActionsWithOurElements] : AAAAAAAAAA was inputted into Input
+12-10-2019 18:17:46  INFO [libs.ActionsWithOurElements] : AAAAAAAAAA was inputted into Input
+12-10-2019 18:17:46  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:17:46  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:17:46  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:17:46  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:17:46  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:18:17  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:18:17  INFO [libs.ActionsWithOurElements] : test@test.com was inputted into Input
+12-10-2019 18:18:17  INFO [libs.ActionsWithOurElements] : zzzzzzzzzz was inputted into Input
+12-10-2019 18:18:17  INFO [libs.ActionsWithOurElements] : zzzzzzzzzz was inputted into Input
+12-10-2019 18:18:17  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:18:17  INFO [libs.ActionsWithOurElements] : qwerty123 was inputted into Input
+12-10-2019 18:18:17  INFO [libs.ActionsWithOurElements] : +38011222333 was inputted into Input
+12-10-2019 18:18:17  INFO [libs.ActionsWithOurElements] : NASA was inputted into Input
+12-10-2019 18:18:17  INFO [libs.ActionsWithOurElements] : Element was clicked
+12-10-2019 18:18:48  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:18:48  INFO [libs.ActionsWithOurElements] : A was inputted into Input
+12-10-2019 18:18:58  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:18:58  INFO [libs.ActionsWithOurElements] : z was inputted into Input
+12-10-2019 18:19:09  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:19:09  INFO [libs.ActionsWithOurElements] : Я was inputted into Input
+12-10-2019 18:19:19  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:19:19  INFO [libs.ActionsWithOurElements] : ы was inputted into Input
+12-10-2019 18:19:30  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:19:30  INFO [libs.ActionsWithOurElements] : asdzx was inputted into Input
+12-10-2019 18:19:40  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:19:40  INFO [libs.ActionsWithOurElements] : ASDZX was inputted into Input
+12-10-2019 18:19:50  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:19:50  INFO [libs.ActionsWithOurElements] : ЫЫЫЫІ was inputted into Input
+12-10-2019 18:20:01  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:20:01  INFO [libs.ActionsWithOurElements] : фывяч was inputted into Input
+12-10-2019 18:20:12  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:20:12  INFO [libs.ActionsWithOurElements] : 123456 was inputted into Input
+12-10-2019 18:20:32  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:20:32  INFO [libs.ActionsWithOurElements] : AAAAAA was inputted into Input
+12-10-2019 18:20:53  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:20:53  INFO [libs.ActionsWithOurElements] : aaaaaa was inputted into Input
+12-10-2019 18:21:13  INFO [pages.RegistrationPage] : Login page was opened
+12-10-2019 18:21:13  INFO [libs.ActionsWithOurElements] : 123456789 was inputted into Input
