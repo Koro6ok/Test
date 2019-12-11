@@ -1,24 +1,24 @@
 package registration.negative;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import registration.BasedTest;
 import java.util.Arrays;
 import java.util.Collection;
+import static org.assertj.core.api.Assertions.assertThat;
 
 
 @RunWith(Parameterized.class)
 public class NegativePhoneTest extends BasedTest {
     private String phone;
 
-    public NegativePhoneTest(String phone ) {
+    public NegativePhoneTest(String phone) {
         this.phone = phone;
     }
 
-    @Parameterized.Parameters (name = "Parameters is {0}" )
-    public static Collection testData(){
+    @Parameterized.Parameters(name = "Parameters is {0}")
+    public static Collection testData() {
         return Arrays.asList(new Object[][]{
                 {""},
                 {" "},
@@ -37,11 +37,14 @@ public class NegativePhoneTest extends BasedTest {
 
         });
     }
+
     @Test
-    public void negativePhone(){
+    public void negativePhone() {
         // WHEN
         registrationPage.setPhone(phone);
         // THEN
-        Assert.assertFalse("Validator is not shown", registrationPage.isFieldValidatorCorrectPhone());
+        assertThat(registrationPage.isFieldValidatorCorrectPhone())
+                .as("Validator is not present")
+                .isTrue();
     }
 }

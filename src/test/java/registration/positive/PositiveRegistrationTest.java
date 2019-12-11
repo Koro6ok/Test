@@ -1,10 +1,9 @@
 package registration.positive;
 
-import org.junit.Assert;
 import org.junit.Test;
 import registration.BasedTest;
 import utils.TestData;
-
+import static org.assertj.core.api.Assertions.assertThat;
 public class PositiveRegistrationTest extends BasedTest {
 
     @Test
@@ -20,6 +19,8 @@ public class PositiveRegistrationTest extends BasedTest {
                 TestData.ORG_NAME);
         registrationPage.clickButtonVhod();
         // THEN
-        Assert.assertTrue("Welcome is not present", welcomePage.isWelcomeDisplayed());
+        assertThat(welcomePage.isWelcomeDisplayed())
+                .as("Welcome is not shown")
+                .isTrue();
     }
 }

@@ -1,12 +1,12 @@
 package registration.negative;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import registration.BasedTest;
 import java.util.Arrays;
 import java.util.Collection;
+import static org.assertj.core.api.Assertions.assertThat;
 
 
 @RunWith(Parameterized.class)
@@ -37,6 +37,8 @@ public class NegativeStrongPasswordTest extends BasedTest {
         // WHEN
         registrationPage.setPassword(passWord);
         // THEN
-        Assert.assertFalse("Hint is shown", registrationPage.isFieldHintStrongPasswordDisplayed());
+        assertThat(registrationPage.isFieldHintStrongPasswordDisplayed())
+                .as("Strong hint is shown")
+                .isFalse();
     }
 }

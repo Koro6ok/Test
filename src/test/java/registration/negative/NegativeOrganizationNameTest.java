@@ -1,12 +1,11 @@
 package registration.negative;
 
-import org.junit.Assert;
+import org.assertj.core.api.SoftAssertions;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import registration.BasedTest;
 import utils.TestData;
-
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -14,9 +13,10 @@ import java.util.Collection;
 public class NegativeOrganizationNameTest extends BasedTest {
     private String organizationName;
 
-    public NegativeOrganizationNameTest (String organizationName){
+    public NegativeOrganizationNameTest(String organizationName) {
         this.organizationName = organizationName;
     }
+
     @Parameterized.Parameters(name = "Parameter is {0}")
     public static Collection testData() {
         return Arrays.asList(new Object[][]{
@@ -30,7 +30,7 @@ public class NegativeOrganizationNameTest extends BasedTest {
     public void negativeOrganizationName() {
         // WHEN
         registrationPage.openRegistrationPage();
-        registrationPage.fillRegistrationForm (TestData.EMAIL,
+        registrationPage.fillRegistrationForm(TestData.EMAIL,
                 TestData.FIRST_NAME,
                 TestData.LAST_NAME,
                 TestData.PASSWORD,
@@ -39,7 +39,13 @@ public class NegativeOrganizationNameTest extends BasedTest {
                 organizationName);
         registrationPage.clickButtonVhod();
         // THEN
-        Assert.assertTrue("Validator is not shown", registrationPage.isFieldValidatorErrorOrganizationDisplayed());
-        Assert.assertFalse("Welcome is shown", welcomePage.isWelcomeDisplayed());
+        SoftAssertions.assertSoftly(soft -> {
+            soft.assertThat(registrationPage.isFieldValidatorErrorOrganizationDisplayed())
+                    .as("Validator is not present")
+                    .isTrue();
+            soft.assertThat(welcomePage.isWelcomeDisplayed())
+                    .as("Welcome is shown")
+                    .isFalse();
+        });
     }
 }

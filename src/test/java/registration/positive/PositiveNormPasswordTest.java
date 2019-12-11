@@ -1,23 +1,23 @@
 package registration.positive;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import registration.BasedTest;
 import java.util.Arrays;
 import java.util.Collection;
+import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(Parameterized.class)
 public class PositiveNormPasswordTest extends BasedTest {
     private String passWord;
 
-    public PositiveNormPasswordTest(String passWord ) {
+    public PositiveNormPasswordTest(String passWord) {
         this.passWord = passWord;
     }
 
-    @Parameterized.Parameters (name = "Parameter is {0}" )
-    public static Collection testData(){
+    @Parameterized.Parameters(name = "Parameter is {0}")
+    public static Collection testData() {
         return Arrays.asList(new Object[][]{
                 {"123456"},
                 {"AAAAAA"},
@@ -37,10 +37,12 @@ public class PositiveNormPasswordTest extends BasedTest {
     }
 
     @Test
-    public void positiveNormPassword(){
+    public void positiveNormPassword() {
         // WHEN
         registrationPage.setPassword(passWord);
         // THEN
-        Assert.assertTrue("Hint is not shown", registrationPage.isFieldHintNormalPasswordDisplayed());
+        assertThat(registrationPage.isFieldHintNormalPasswordDisplayed())
+                .as("Incorrect hint is shown")
+                .isTrue();
     }
 }

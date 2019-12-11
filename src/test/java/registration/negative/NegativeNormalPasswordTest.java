@@ -1,24 +1,24 @@
 package registration.negative;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import registration.BasedTest;
 import java.util.Arrays;
 import java.util.Collection;
+import static org.assertj.core.api.Assertions.assertThat;
 
 
 @RunWith(Parameterized.class)
 public class NegativeNormalPasswordTest extends BasedTest {
     private String passWord;
 
-    public NegativeNormalPasswordTest(String passWord ) {
+    public NegativeNormalPasswordTest(String passWord) {
         this.passWord = passWord;
     }
 
-    @Parameterized.Parameters (name = "Parameters is {0}" )
-    public static Collection testData(){
+    @Parameterized.Parameters(name = "Parameters is {0}")
+    public static Collection testData() {
         return Arrays.asList(new Object[][]{
                 {"     "},
                 {"          "},
@@ -40,10 +40,12 @@ public class NegativeNormalPasswordTest extends BasedTest {
     }
 
     @Test
-    public void negativeNormalPassword(){
+    public void negativeNormalPassword() {
         // WHEN
         registrationPage.setPassword(passWord);
         // THEN
-        Assert.assertFalse("Hint is shown", registrationPage.isFieldHintNormalPasswordDisplayed());
+        assertThat(registrationPage.isFieldHintNormalPasswordDisplayed())
+                .as("Normal hint is shown")
+                .isFalse();
     }
 }
