@@ -1,6 +1,6 @@
 package registration.positive;
 
-import org.junit.Assert;
+import org.assertj.core.api.SoftAssertions;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -14,20 +14,20 @@ public class PositiveFirstLastNameTest extends BasedTest {
     private String firstName;
     private String lastName;
 
-    public PositiveFirstLastNameTest (String firstName, String lastName){
-            this.firstName = firstName;
-            this.lastName = lastName;
-        }
+    public PositiveFirstLastNameTest(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
     @Parameterized.Parameters(name = "Parameters are {0} and {1}")
     public static Collection testData() {
         return Arrays.asList(new Object[][]{
-                {"A","A"},
-                {"a","a"},
-                {"Ы","Ы"},
-                {"ы","ы"},
-                {"AAAAAAAAAA","AAAAAAAAAA"},
-                {"zzzzzzzzzz","zzzzzzzzzz"}
+                {"A", "A"},
+                {"a", "a"},
+                {"Ы", "Ы"},
+                {"ы", "ы"},
+                {"AAAAAAAAAA", "AAAAAAAAAA"},
+                {"zzzzzzzzzz", "zzzzzzzzzz"}
         });
     }
 
@@ -35,7 +35,7 @@ public class PositiveFirstLastNameTest extends BasedTest {
     public void positiveFirstLastName() {
         // WHEN
         registrationPage.openRegistrationPage();
-        registrationPage.fillRegistrationForm (TestData.EMAIL,
+        registrationPage.fillRegistrationForm(TestData.EMAIL,
                 firstName,
                 lastName,
                 TestData.PASSWORD,
@@ -44,8 +44,16 @@ public class PositiveFirstLastNameTest extends BasedTest {
                 TestData.ORG_NAME);
         registrationPage.clickButtonVhod();
         // THEN
-        Assert.assertFalse("Validator is shown", registrationPage.isFieldValidatorErrorFirstNameDisplayed());
-        Assert.assertFalse("Validator is shown", registrationPage.isFieldValidatorErrorLastNameDisplayed());
-        Assert.assertTrue("Welcome is not shown", welcomePage.isWelcomeDisplayed());
+        SoftAssertions.assertSoftly(soft -> {
+            soft.assertThat(registrationPage.isFieldValidatorErrorFirstNameDisplayed())
+                    .as("Validator is present")
+                    .isFalse();
+            soft.assertThat(registrationPage.isFieldValidatorErrorLastNameDisplayed())
+                    .as("Validator is present")
+                    .isFalse();
+            soft.assertThat(welcomePage.isWelcomeDisplayed())
+                    .as("Welcome is not shown")
+                    .isTrue();
+        });
     }
 }

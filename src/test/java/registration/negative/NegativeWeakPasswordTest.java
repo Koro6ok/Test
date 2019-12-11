@@ -1,24 +1,24 @@
 package registration.negative;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import registration.BasedTest;
 import java.util.Arrays;
 import java.util.Collection;
+import static org.assertj.core.api.Assertions.assertThat;
 
 
 @RunWith(Parameterized.class)
 public class NegativeWeakPasswordTest extends BasedTest {
     private String passWord;
 
-    public NegativeWeakPasswordTest(String passWord ) {
-                this.passWord = passWord;
+    public NegativeWeakPasswordTest(String passWord) {
+        this.passWord = passWord;
     }
 
-    @Parameterized.Parameters (name = "Parameters is {0}" )
-    public static Collection testData(){
+    @Parameterized.Parameters(name = "Parameters is {0}")
+    public static Collection testData() {
         return Arrays.asList(new Object[][]{
                 {" "},
                 {"      "},
@@ -33,10 +33,12 @@ public class NegativeWeakPasswordTest extends BasedTest {
     }
 
     @Test
-    public void negativeWeakPassword(){
+    public void negativeWeakPassword() {
         // WHEN
         registrationPage.setPassword(passWord);
         // THEN
-        Assert.assertFalse("Hint is shown", registrationPage.isFieldHintWeakPasswordDisplayed());
+        assertThat(registrationPage.isFieldHintWeakPasswordDisplayed())
+                .as("Weak hint is shown")
+                .isFalse();
     }
 }

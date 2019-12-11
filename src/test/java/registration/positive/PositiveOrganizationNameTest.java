@@ -1,6 +1,6 @@
 package registration.positive;
 
-import org.junit.Assert;
+import org.assertj.core.api.SoftAssertions;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -13,7 +13,7 @@ import java.util.Collection;
 public class PositiveOrganizationNameTest extends BasedTest {
     private String organizationName;
 
-    public PositiveOrganizationNameTest (String organizationName){
+    public PositiveOrganizationNameTest(String organizationName) {
         this.organizationName = organizationName;
     }
 
@@ -28,11 +28,12 @@ public class PositiveOrganizationNameTest extends BasedTest {
                 {"zzzzzzzzzz"}
         });
     }
+
     @Test
     public void positiveOrganizationName() {
         // WHEN
         registrationPage.openRegistrationPage();
-        registrationPage.fillRegistrationForm (TestData.EMAIL,
+        registrationPage.fillRegistrationForm(TestData.EMAIL,
                 TestData.FIRST_NAME,
                 TestData.LAST_NAME,
                 TestData.PASSWORD,
@@ -41,7 +42,13 @@ public class PositiveOrganizationNameTest extends BasedTest {
                 organizationName);
         registrationPage.clickButtonVhod();
         // THEN
-        Assert.assertTrue("Validator is shown", registrationPage.isFieldValidatorErrorOrganizationDisplayed());
-        Assert.assertFalse("Welcome is not shown", welcomePage.isWelcomeDisplayed());
+        SoftAssertions.assertSoftly(soft -> {
+            soft.assertThat(registrationPage.isFieldValidatorErrorOrganizationDisplayed())
+                    .as("Validator is present")
+                    .isFalse();
+            soft.assertThat(welcomePage.isWelcomeDisplayed())
+                    .as("Welcome is not shown")
+                    .isTrue();
+        });
     }
 }

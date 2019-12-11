@@ -16,7 +16,7 @@ import registration.positive.*;
                 PositivePhoneTest.class,
                 PositiveOrganizationNameTest.class,
 
-                UnValidRagistrationWithParametersTest.class,
+                InvalidRegistrationWithParametersTest.class,
                 NegativeAllFieldsRequiredTest.class,
                 NegativeFirstLastNameTest.class,
                 NegativeWeakPasswordTest.class,

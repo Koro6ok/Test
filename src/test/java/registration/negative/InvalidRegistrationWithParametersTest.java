@@ -1,15 +1,15 @@
 package registration.negative;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import registration.BasedTest;
 import java.util.Arrays;
 import java.util.Collection;
+import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(Parameterized.class)
-public class UnValidRagistrationWithParametersTest extends BasedTest {
+public class InvalidRegistrationWithParametersTest extends BasedTest {
     String email;
     String firstName;
     String lastName;
@@ -18,7 +18,7 @@ public class UnValidRagistrationWithParametersTest extends BasedTest {
     String phone;
     String organizationName;
 
-    public UnValidRagistrationWithParametersTest(String email, String firstName, String lastName, String passWord, String confirmPassword, String phone, String organizationName) {
+    public InvalidRegistrationWithParametersTest(String email, String firstName, String lastName, String passWord, String confirmPassword, String phone, String organizationName) {
         this.email = email;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -43,10 +43,12 @@ public class UnValidRagistrationWithParametersTest extends BasedTest {
     }
 
     @Test
-    public void unValidRagistrationWithParameters() {
+    public void invalidRegistrationWithParametersTest() {
         // WHEN
         registrationPage.doRegistration(email, firstName, lastName, passWord, confirmPassword, phone, organizationName);
         // THEN
-        Assert.assertFalse("Welcome is present", welcomePage.isWelcomeDisplayed());
+        assertThat(welcomePage.isWelcomeDisplayed())
+                .as("Welcome is shown")
+                .isFalse();
     }
 }

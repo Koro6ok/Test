@@ -1,12 +1,12 @@
 package registration.positive;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import registration.BasedTest;
 import java.util.Arrays;
 import java.util.Collection;
+import static org.assertj.core.api.Assertions.assertThat;
 
 
 @RunWith(Parameterized.class)
@@ -36,6 +36,8 @@ public class PositiveWeakPasswordTest extends BasedTest {
         // WHEN
         registrationPage.setPassword(password);
         // THEN
-        Assert.assertTrue("Hint is not shown", registrationPage.isFieldHintWeakPasswordDisplayed());
+        assertThat(registrationPage.isFieldHintWeakPasswordDisplayed())
+                .as("Incorrect hint is shown")
+                .isTrue();
     }
 }

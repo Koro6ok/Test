@@ -1,13 +1,12 @@
 package registration.positive;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import registration.BasedTest;
-
 import java.util.Arrays;
 import java.util.Collection;
+import static org.assertj.core.api.Assertions.assertThat;
 
 
 @RunWith(Parameterized.class)
@@ -15,12 +14,12 @@ public class PositiveStrongPasswordTest extends BasedTest {
     private String passWord;
 
 
-    public PositiveStrongPasswordTest(String passWord ) {
+    public PositiveStrongPasswordTest(String passWord) {
         this.passWord = passWord;
     }
 
-    @Parameterized.Parameters (name = "Parameter is {0}" )
-    public static Collection testData(){
+    @Parameterized.Parameters(name = "Parameter is {0}")
+    public static Collection testData() {
         return Arrays.asList(new Object[][]{
                 {"1234567890"},
                 {"AAAAAAAAAA"},
@@ -39,10 +38,12 @@ public class PositiveStrongPasswordTest extends BasedTest {
     }
 
     @Test
-    public void positiveStrongPassword(){
+    public void positiveStrongPassword() {
         // WHEN
         registrationPage.setPassword(passWord);
         // THEN
-        Assert.assertTrue("Hint is not shown", registrationPage.isFieldHintStrongPasswordDisplayed());
+        assertThat(registrationPage.isFieldHintStrongPasswordDisplayed())
+                .as("Incorrect hint is shown")
+                .isTrue();
     }
 }

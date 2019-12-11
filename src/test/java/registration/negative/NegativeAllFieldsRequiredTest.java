@@ -1,6 +1,6 @@
 package registration.negative;
 
-import org.junit.Assert;
+import org.assertj.core.api.SoftAssertions;
 import org.junit.Test;
 import registration.BasedTest;
 
@@ -13,12 +13,27 @@ public class NegativeAllFieldsRequiredTest extends BasedTest {
         registrationPage.isButtonVhodDisplayed();
         registrationPage.clickButtonVhod();
         // THEN
-        Assert.assertTrue("Validator is not be present", registrationPage.isFieldValidatorEmailDisplayed());
-        Assert.assertTrue("Validator is not be present", registrationPage.isFieldValidatorFirstNameDisplayed());
-        Assert.assertTrue("Validator is not be present", registrationPage.isFieldValidatorLastNameDisplayed());
-        Assert.assertTrue("Validator is not be present", registrationPage.isFieldValidatorPasswordDisplayed());
-        Assert.assertTrue("Validator is not be present", registrationPage.isFieldValidatorPhoneDisplayed());
-        Assert.assertTrue("Validator is not be present", registrationPage.isFieldValidatorOrganizationNameDisplayed());
+
+        SoftAssertions.assertSoftly(soft -> {
+            soft.assertThat(registrationPage.isFieldValidatorEmailDisplayed())
+                    .as("Validator is not present")
+                    .isTrue();
+            soft.assertThat(registrationPage.isFieldValidatorFirstNameDisplayed())
+                    .as("Validator is not present")
+                    .isTrue();
+            soft.assertThat(registrationPage.isFieldValidatorLastNameDisplayed())
+                    .as("Validator is not present")
+                    .isTrue();
+            soft.assertThat(registrationPage.isFieldValidatorPasswordDisplayed())
+                    .as("Validator is not present")
+                    .isTrue();
+            soft.assertThat(registrationPage.isFieldValidatorPhoneDisplayed())
+                    .as("Validator is not present")
+                    .isTrue();
+            soft.assertThat(registrationPage.isFieldValidatorOrganizationNameDisplayed())
+                    .as("Validator is not present")
+                    .isTrue();
+        });
     }
 }
 
